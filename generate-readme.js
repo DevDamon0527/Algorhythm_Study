@@ -56,7 +56,7 @@ async function main() {
     const dirPath = path.join(baseDir, tier);
     const table = await generateTable(dirPath, tier);
 
-     // 🥉/🥈/🥇 아이콘을 tier에 따라 다르게 표시
+     // 아이콘을 tier에 따라 다르게 표시
     const medal =
       tier === "Bronze" ? "🥉" :
       tier === "Silver" ? "🥈" :

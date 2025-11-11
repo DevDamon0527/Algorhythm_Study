@@ -11,6 +11,9 @@
 | 1001 | [A-B](https://www.acmicpc.net/problem/1001) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/1001.js) | implementation, arithmetic, mathematics |
 | 1008 | [A/B](https://www.acmicpc.net/problem/1008) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/1008.js) | implementation, arithmetic, mathematics |
 | 10171 | [고양이](https://www.acmicpc.net/problem/10171) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/10171.js) | implementation |
+| 10430 | [나머지](https://www.acmicpc.net/problem/10430) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/10430.js) | implementation, arithmetic, mathematics |
+| 10807 | [개수 세기](https://www.acmicpc.net/problem/10807) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/10807.js) | implementation |
+| 10809 | [알파벳 찾기](https://www.acmicpc.net/problem/10809) | Bronze 2 | [코드 보기](./BaekJoon/solutions/Bronze/10809.js) | implementation, string |
 | 10869 | [사칙연산](https://www.acmicpc.net/problem/10869) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/10869.js) | implementation, arithmetic, mathematics |
 | 10871 | [X보다 작은 수](https://www.acmicpc.net/problem/10871) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/10871.js) | implementation |
 | 10926 | [??!](https://www.acmicpc.net/problem/10926) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/10926.js) | implementation |
@@ -21,6 +24,7 @@
 | 1330 | [두 수 비교하기](https://www.acmicpc.net/problem/1330) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/1330.js) | implementation |
 | 2438 | [별 찍기 - 1](https://www.acmicpc.net/problem/2438) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/2438.js) | implementation |
 | 2439 | [별 찍기 - 2](https://www.acmicpc.net/problem/2439) | Bronze 4 | [코드 보기](./BaekJoon/solutions/Bronze/2439.js) | implementation |
+| 2480 | [주사위 세개](https://www.acmicpc.net/problem/2480) | Bronze 4 | [코드 보기](./BaekJoon/solutions/Bronze/2480.js) | mathematics, implementation, arithmetic, case work |
 | 2557 | [Hello World](https://www.acmicpc.net/problem/2557) | Bronze 5 | [코드 보기](./BaekJoon/solutions/Bronze/2557.js) | implementation |
 | 2562 | [최댓값](https://www.acmicpc.net/problem/2562) | Bronze 3 | [코드 보기](./BaekJoon/solutions/Bronze/2562.js) | implementation |
 | 2588 | [곱셈](https://www.acmicpc.net/problem/2588) | Bronze 3 | [코드 보기](./BaekJoon/solutions/Bronze/2588.js) | arithmetic, mathematics |

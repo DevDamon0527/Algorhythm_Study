@@ -16,7 +16,7 @@ async function getProblemInfo(problemNum) {
   const title = data.titleKo || problemNum;
   const level = convertLevel(data.level);
   const tags = (data.tags || [])
-    .map(tag => tag.displayNames.find(d => d.language === "ko")?.name || tag.key)
+    .map(tag => tag.displayNames.find(d => d.language === "en")?.name || tag.key)
     .join(", ");
   return { title, level, tags };
 }
@@ -42,7 +42,7 @@ async function generateTable(dirPath, tierName) {
   for (const file of files) {
     const problemNum = file.split(".")[0];
     const { title, level, tags } = await getProblemInfo(problemNum);
-    table += `| ${problemNum} | [${title}](https://www.acmicpc.net/problem/${problemNum}) | ${level} | [코드보기](./BaekJoon/solutions/${tierName}/${file}) | ${tags} |\n`;
+    table += `| ${problemNum} | [${title}](https://www.acmicpc.net/problem/${problemNum}) | ${level} | [코드 보기](./BaekJoon/solutions/${tierName}/${file}) | ${tags} |\n`;
   }
 
   return table;
@@ -56,8 +56,13 @@ async function main() {
     const dirPath = path.join(baseDir, tier);
     const table = await generateTable(dirPath, tier);
 
+     // 🥉/🥈/🥇 아이콘을 tier에 따라 다르게 표시
+    const medal =
+      tier === "Bronze" ? "🥉" :
+      tier === "Silver" ? "🥈" :
+      tier === "Gold" ? "🥇" : "⭐";
     readme += `
-### 🥉 ${tier}
+###  ${medal} ${tier}
 
 <details>
 <summary> 문제 목록 펼치기 / 접기 </summary>

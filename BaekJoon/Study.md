@@ -1,8 +1,9 @@
 map(Number)
 filter()
-sort()
+sort() 관하여 정리
 slice()
 join()
+includes
 
 ## 중복제거
 ...new Set
@@ -37,3 +38,6 @@ false는 숫자 0으로 변환
 
 ## 아스키코드 사용법
 -  string.fromCharCode() 메서드
+
+## 배열 반복문
+foreach 문

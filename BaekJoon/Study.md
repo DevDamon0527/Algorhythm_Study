@@ -41,3 +41,13 @@ false는 숫자 0으로 변환
 
 ## 배열 반복문
 foreach 문
+
+## 배열 중 최대값 찾기
+// 최대값
+let maxValue = Math.max(...scores);
+
+
+## map, reduce 반복문
+let newScores = scores.map(v => (v / m) * 100);
+
+let avg = newScores.reduce((a, b) => a + b, 0) / n;

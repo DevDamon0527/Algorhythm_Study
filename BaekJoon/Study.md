@@ -51,3 +51,10 @@ let maxValue = Math.max(...scores);
 let newScores = scores.map(v => (v / m) * 100);
 
 let avg = newScores.reduce((a, b) => a + b, 0) / n;
+
+
+## 알고리즘 DP
+- silver 1920.js 문제 : 1로 만들기.
+- new Array(n+1)
+- .fill(0);
+- dp[i] = i를 1로 만드는 최소 연산 횟수

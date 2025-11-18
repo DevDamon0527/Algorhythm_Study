@@ -49,6 +49,7 @@
 | Idx (No) | Problem | Level | Solution | Category |
 |:---------:|:-------------------:|:------:|:---------:|:---------:|
 | 1181 | [단어 정렬](https://www.acmicpc.net/problem/1181) | Silver 5 | [코드 보기](./BaekJoon/solutions/Silver/1181.js) | string, sorting |
+| 1920 | [수 찾기](https://www.acmicpc.net/problem/1920) | Silver 4 | [코드 보기](./BaekJoon/solutions/Silver/1920.js) | data structures, sorting, binary search, set / map, set / map by hashing |
 
 
 </details>

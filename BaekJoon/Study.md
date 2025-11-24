@@ -58,3 +58,5 @@ let avg = newScores.reduce((a, b) => a + b, 0) / n;
 - new Array(n+1)
 - .fill(0);
 - dp[i] = i를 1로 만드는 최소 연산 횟수
+
+## Set 이용하기.
